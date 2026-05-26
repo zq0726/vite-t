@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+const mode = import.meta.env.MODE
+console.log('mode', mode)
 </script>
 
 <template>
